@@ -1,0 +1,57 @@
+<html>
+    <head>
+    <title>worktodo</title>
+</head>
+    <body>
+        
+        <table border="1" align="center">
+            <form action="worktodo.php" method="post" target="blank">
+            <tr>
+                <th colspan="4">Register Name</th>
+            </tr>
+            <tr>
+                <td><span id="star">*</span>Name</td>
+                <td><input type="text" required /></td>
+                <td><span id="star">*</span>Last Name</td>
+                <td><input type="text"/></td>
+            </tr>
+            <tr>
+                <td><span id="star">*</span>Email</td>
+                <td colspan="3"><input type="email" style="width:100%;"></td>  
+            </tr>
+            <tr>
+                <td><span id="star">*</span>Password</td>
+                <td><input type="password"/></td>
+                <td><span id="star">*</span>Re-Password</td>
+                <td><input type="password"/></td>
+            </tr>
+            <tr>
+                <td><span id="star">*</span>Gender</td>
+                <td>Male<input type="radio" name="gender" name="male"/>Female<input type="radio" name="gender" name="female"/></td>
+                <td align="center"><span id="star">*</span>Country</td>
+                <td>
+                    <label for="countries">Select Country:</label>
+                    <select name="countries" id="countries">
+                        <option value="1">Nepal</option>
+                        <option value="2">China</option>
+                        <option value="3">Japan</option>
+                        <option value="4">Pakistan</option>
+                      </select>
+
+                </td>
+                <tr>
+                    <td>Your Photo</td>
+                    <td colspan="3"><input type="file"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="submit"></td>
+                    <td colspan="2" align="center"><input type="reset" value="Clear Form"></td>
+                </tr>
+                </tr>
+                </form>
+        </table>
+        <hr>
+
+       
+      
+    </body>
